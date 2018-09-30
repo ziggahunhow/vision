@@ -1,0 +1,22 @@
+/* media width */
+$desktop: 992px;
+$pad-media: 769px;
+$phone-media: 576px;
+
+/* animtaion */
+@keyframes dot-keyframes {
+  0% {
+    opacity: 0.4;
+    transform: scale(1, 1);
+  }
+
+  50% {
+    opacity: 1;
+    transform: scale(1.2, 1.2);
+  }
+
+  100% {
+    opacity: 0.4;
+    transform: scale(1, 1);
+  }
+}
